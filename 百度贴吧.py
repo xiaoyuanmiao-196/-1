@@ -30,3 +30,4 @@ for each in ls:
         cur.execute(strsql, parmas)
         conn.commit()
         time.sleep(random.random())
+        #爬取百度贴吧 并存入数据库
